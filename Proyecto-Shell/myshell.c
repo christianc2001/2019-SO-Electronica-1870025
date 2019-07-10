@@ -48,7 +48,7 @@ int lsh_batch(char **args){
         int posCursor;
 	FILE *file = fopen(args[1],"r");
 
-	yargs[0] = fgetc(file);
+	myargs[0] = fgetc(file);
 	execvp(myargs[0], myargs);
 
 
